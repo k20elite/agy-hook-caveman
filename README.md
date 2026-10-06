@@ -1,5 +1,7 @@
 # agy-hook-caveman
 
+**Tiếng Việt** | [English](README.en.md)
+
 Hook **caveman mode** cho [Antigravity](https://antigravity.google) (`agy` CLI, Antigravity 2.0, IDE).
 Mỗi lần agent gọi model, hook chèn một system message tạm thời (`ephemeralMessage`) bắt model trả lời
 ngắn gọn kiểu "caveman": bỏ hết lời thừa, giữ nguyên toàn bộ nội dung kỹ thuật → tiết kiệm token output.
