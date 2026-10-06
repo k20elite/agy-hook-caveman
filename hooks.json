@@ -1,0 +1,7 @@
+{
+  "caveman": {
+    "PreInvocation": [
+      { "type": "command", "command": "node hooks/caveman.js", "timeout": 10 }
+    ]
+  }
+}

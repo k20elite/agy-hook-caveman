@@ -1,0 +1,13 @@
+{
+  "name": "agy-hook-caveman",
+  "version": "1.0.0",
+  "description": "Caveman mode PreInvocation hook for Antigravity (agy): terse answers, full technical substance.",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test test/caveman.test.js",
+    "install-hook": "node scripts/install.js",
+    "uninstall-hook": "node scripts/install.js --uninstall"
+  },
+  "keywords": ["antigravity", "agy", "hooks", "caveman", "llm", "tokens"]
+}
